@@ -58,7 +58,7 @@ function CourseCard({ c }) {
         </p>
       </div>
 
-      <ul className="space-y-1" role="list">
+      <ul className="space-y-1" >
         {c.topics.map((t) => (
           <li key={t} className="text-sm text-gray-600 dark:text-gray-300 flex items-center gap-2">
             <span className="text-green-500 font-bold">✓</span> {t}
@@ -70,7 +70,7 @@ function CourseCard({ c }) {
         <span className="text-2xl font-extrabold text-gray-900 dark:text-white">
           {c.price === 'Free' ? 'Free' : '\u20B9' + c.price}
         </span>
-        <a href="#" className={ctaClass}>
+        <a href="#!" className={ctaClass}>
           {c.cta} <FiArrowRight size={14} />
         </a>
       </div>

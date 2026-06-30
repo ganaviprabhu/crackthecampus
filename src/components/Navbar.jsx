@@ -27,7 +27,7 @@ export default function Navbar({ dark, setDark }) {
           CrackTheCampus
         </a>
 
-        <ul className="hidden md:flex items-center gap-8 list-none" role="list">
+        <ul className="hidden md:flex items-center gap-8 list-none" >
           {navLinks.map(link => (
             <li key={link.label}>
               <a href={link.href} className="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
@@ -62,7 +62,7 @@ export default function Navbar({ dark, setDark }) {
 
       {menuOpen && (
         <div className="md:hidden border-t border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-950 px-4 pb-4">
-          <ul className="flex flex-col gap-2 mt-2 list-none" role="list">
+          <ul className="flex flex-col gap-2 mt-2 list-none" >
             {navLinks.map(link => (
               <li key={link.label}>
                 <a href={link.href} onClick={() => setMenuOpen(false)} className="block py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600">
