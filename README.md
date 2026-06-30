@@ -2,7 +2,7 @@
 
 A responsive landing page for a campus placement prep platform, built with React and Tailwind CSS.
 
-**Live site:** https://crackthecampus.vercel.app *(replace with your actual production URL)*
+**Live site:** https://crackthecampus-ganavi.vercel.app
 **Repository:** https://github.com/ganaviprabhu/crackthecampus
 
 ---
